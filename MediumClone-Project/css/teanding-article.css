@@ -1,0 +1,62 @@
+.trending-articles{
+   margin-top: 180px;
+}
+.articles-lists{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.article{
+    width: 30%;
+    height: 100px;
+}
+.trending-medium{
+    font-size: 17px;
+}
+.trending-medium::before{
+   content:"\2197   "
+}
+.article{
+    /* width: 100%; */
+}  
+.title{
+    font-size:40px;
+    float: left;
+    width: 15%;
+    color: rgb(236, 231, 231);
+    
+} 
+.right-div{
+    float: right;
+    width: 85%;
+    
+}
+.heading-1::before{
+    content: url('https://miro.medium.com/v2/resize:fill:25:25/1*fz3jNLC0flpXYkxJwERsNQ.jpeg' );
+    
+    
+}
+.date-time{
+    font-size: 12px;
+    color:rgb(116, 109, 109) ;
+    font-weight: 90;
+}
+.heading{
+    font-size: 12px;
+    
+
+}
+.heading-3::before{
+    content: url('https://miro.medium.com/v2/resize:fill:25:25/1*nzogy1uI36Py2Q7U3s4QYQ.png');
+}
+.heading-4::before{
+    content: url('https://miro.medium.com/v2/resize:fill:25:25/1*XVtdl45m8YaYrPI4buJ5yQ.png');
+}
+.heading-5::before{
+    content: url('');
+}
+.heading-6::before{
+    content: url('');
+}
